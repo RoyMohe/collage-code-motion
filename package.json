@@ -1,0 +1,12 @@
+{
+  "name": "collage-code-motion",
+  "version": "1.0.0",
+  "description": "Code-written collage motion films: canvas engine, live code-panel showcase, beat-synced audio, MP4 export.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "example": "bash scripts/make_video.sh examples/jump-vol01 examples/jump-vol01/out.mp4",
+    "template": "bash scripts/make_video.sh template template/out.mp4"
+  },
+  "dependencies": { "playwright": "^1.47.0" }
+}
